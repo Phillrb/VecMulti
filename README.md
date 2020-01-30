@@ -2,6 +2,7 @@
 Send Vectrex game binary images over USB to Serial to VecMulti from the macOS command line
 
 Download the latest release from https://github.com/Phillrb/VecMulti/releases/latest
+
 No need to compile; just run it!
 
 Supports USB-to-Serial adapters that include CP2104 USB to UART etc
