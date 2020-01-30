@@ -1,5 +1,8 @@
 # VecMulti
-Send Vectrex game binary images to VecMulti from the macOS command line
+Send Vectrex game binary images over USB to Serial to VecMulti from the macOS command line
+
+Download the latest release from https://github.com/Phillrb/VecMulti/releases/latest
+No need to compile; just run it!
 
 * Plug in VecMulti without microSD card
 * Attach 4 pin header on VecMulti as follows:
@@ -13,6 +16,7 @@ Send Vectrex game binary images to VecMulti from the macOS command line
 * Launch 'VecMultiDev' in Terminal and optionally supply port and path to game binary as unnamed arguments (or interact with command line program when run to supply these details).
 * Binary file will upload
 * Game will start automatically after upload
+
 
 Similar to https://github.com/nanoflite/vecmulti but without the Python dependency (or the ability to make menus).
 Uses https://github.com/armadsen/ORSSerialPort with thanks!
