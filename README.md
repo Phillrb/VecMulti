@@ -1,4 +1,4 @@
-# VecMulti
+# VecMulti for macOS
 Send Vectrex game binary images over USB to Serial to VecMulti from the macOS command line
 
 Download the latest release from https://github.com/Phillrb/VecMulti/releases/latest
