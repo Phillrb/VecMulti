@@ -6,6 +6,8 @@ No need to compile; just run it!
 
 Supports USB-to-Serial adapters that include CP2104 USB to UART etc
 
+![Alt text](/resources/vecmulti_dev_mode.jpg "Connect to VecMulti")
+
 * Plug in VecMulti without microSD card
 * Attach 4 pin header on VecMulti as follows:
 ** Pin 1 (GND) connect to GND on USB-serial adapter. This pin is closest to the edge of the cart.
@@ -15,6 +17,10 @@ Supports USB-to-Serial adapters that include CP2104 USB to UART etc
 * Connect USB-serial adapter to Mac
 * Turn on Vectrex
 * Wait for 'Dev Mode'
+
+
+![Alt text](/resources/dev_mode.jpg "Dev Mode")
+
 * Launch 'VecMultiDev' in Terminal and optionally supply port and path to game binary as unnamed arguments (or interact with command line program when run to supply these details).
 * Binary file will upload
 * Game will start automatically after upload
