@@ -4,6 +4,8 @@ Send Vectrex game binary images over USB to Serial to VecMulti from the macOS co
 Download the latest release from https://github.com/Phillrb/VecMulti/releases/latest
 No need to compile; just run it!
 
+Supports USB-to-Serial adapters that include CP2104 USB to UART etc
+
 * Plug in VecMulti without microSD card
 * Attach 4 pin header on VecMulti as follows:
 ** Pin 1 (GND) connect to GND on USB-serial adapter. This pin is closest to the edge of the cart.
