@@ -1,14 +1,21 @@
-# VecMulti for macOS
-Send Vectrex game binary images over USB to Serial to VecMulti from the macOS command line
+# VecMulti uploader for macOS
+Send Vectrex game binary images over USB to Serial to VecMulti from the macOS command line.
 
-Download the latest release from https://github.com/Phillrb/VecMulti/releases/latest
+Download the latest release from <https://github.com/Phillrb/VecMulti/releases/latest>
 
 No need to compile; just run it!
 
+## About VecMulti 
+The VecMulti is a Vectrex multicart and dev platform created by Richard Hutchinson on AtariAge forums:
+<https://www.reddit.com/r/Vectrex/comments/eotqj2/vecmulti_production_resumed_vectrex_micro_sd_card/>
+
+
+## Uploader Details
 Supports USB-to-Serial adapters that include CP2104 USB to UART etc
 
 ![Alt text](/resources/vecmulti_dev_mode.jpg "Connect to VecMulti")
 
+## Upload Steps
 * Plug in VecMulti without microSD card
 * Attach 4 pin header on VecMulti as follows:
   * Pin 1 (GND) connect to GND on USB-serial adapter. This pin is closest to the edge of the cart.
@@ -27,6 +34,6 @@ Supports USB-to-Serial adapters that include CP2104 USB to UART etc
 * Game will start automatically after upload
 
 
-Similar to https://github.com/nanoflite/vecmulti but without the Python dependency (or the ability to make menus).
+Similar to <https://github.com/nanoflite/vecmulti> but without the Python dependency (or the ability to make menus).
 
-Uses https://github.com/armadsen/ORSSerialPort with thanks!
+Uses <https://github.com/armadsen/ORSSerialPort> with thanks!
