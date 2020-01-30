@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import ORSSerial
 
 // VecMulti Dev Mode
 // Transfer a binary to the Vectrex
@@ -21,6 +20,8 @@ let markerData = Data.init(repeating: Character.init("@").asciiValue!, count: 1)
 // Mark the start of data being sent
 let endData = Data.init(repeating: Character.init("y").asciiValue!, count: 1)
 
+
+print("Welcome to VecMulti!");
 
 // Save paths to the binary file and / or the serial port
 var filePath : String? = nil
