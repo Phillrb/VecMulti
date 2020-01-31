@@ -34,6 +34,6 @@ Supports USB-to-Serial adapters that include CP2104 USB to UART etc
 * Game will start automatically after upload
 
 
-Similar to <https://github.com/nanoflite/vecmulti> but without the Python dependency (or the ability to make menus).
+Similar to <https://github.com/nanoflite/vecmulti> but without the Python dependency (or the ability to make menus; I should probably add that at some point!)
 
-Uses <https://github.com/armadsen/ORSSerialPort> with thanks!
+Uses <https://github.com/armadsen/ORSSerialPort> by Andrew Madsen - with thanks!
